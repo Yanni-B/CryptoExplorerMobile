@@ -1,0 +1,32 @@
+{
+  "expo": {
+    "name": "Projet_Final_Mobile_GR1_E2",
+    "slug": "Projet_Final_Mobile_GR1_E2",
+    "version": "1.0.0",
+    "orientation": "portrait",
+    "userInterfaceStyle": "light",
+    "newArchEnabled": true,
+    "ios": {
+      "supportsTablet": true,
+      "bundleIdentifier": "com.anonymous.Projet_Final_Mobile_GR1_E2",
+      "infoPlist": {
+        "NSLocationWhenInUseUsageDescription": "Cette application utilise votre position pour afficher la monnaie locale et personnaliser votre expérience."
+      }
+    },
+    "android": {
+      "edgeToEdgeEnabled": true,
+      "predictiveBackGestureEnabled": false,
+      "package": "com.anonymous.Projet_Final_Mobile_GR1_E2",
+      "permissions": [
+        "ACCESS_FINE_LOCATION",
+        "ACCESS_COARSE_LOCATION"
+      ]
+    },
+    "web": {
+      "bundler": "metro"
+    },
+    "plugins": [
+      "expo-secure-store"
+    ]
+  }
+}
